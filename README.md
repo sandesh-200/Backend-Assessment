@@ -34,7 +34,7 @@ cp .env.example .env
 Required environment variables:
 ```
 PORT=5000
-MONGO_URI=mongodb://localhost:27017/taskdb
+MONGO_URI=mongodb://mongo:27017/taskdb
 JWT_SECRET=your_super_secret_key_here
 JWT_EXPIRES_IN=30d
 NODE_ENV=development
